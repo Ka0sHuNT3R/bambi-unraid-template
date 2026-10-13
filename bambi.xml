@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Bambi</Name>
+  <Repository>kaoshunter/bambi:1.0.0</Repository>
+  <Registry>https://hub.docker.com/r/kaoshunter/bambi</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hub.docker.com/r/kaoshunter/bambi</Project>
+  <Overview>Bambi control dashboard for Bambu Lab printers.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5050]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI Port" Target="5050" Default="6060" Mode="tcp" Description="Bambi WebUI port" Type="Port" Display="always" Required="true" Mask="false">6060</Config>
+  <Config Name="Bambi Appdata" Target="/app/dashboard" Default="/mnt/user/appdata/bambi/app" Mode="rw" Description="Persistent Bambi dashboard files" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/bambi/app</Config>
+  <Config Name="Bambi Cache" Target="/app/cache" Default="/mnt/user/appdata/bambi/cache" Mode="rw" Description="Persistent Bambi cache and print working files" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/bambi/cache</Config>
+  <Config Name="Printer IP Address" Target="BAMBU_IP" Default="" Mode="" Description="IP address of the Bambu Lab printer" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Printer Serial Number" Target="BAMBU_SERIAL" Default="" Mode="" Description="Bambu Lab printer serial number" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Printer Access Code" Target="BAMBU_ACCESS_CODE" Default="" Mode="" Description="Bambu Lab printer access code" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Bambi Print Token" Target="BAMBI_PRINT_TOKEN" Default="" Mode="" Description="Bambi print service token" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Bambi Test Access Code" Target="BAMBI_TEST_ACCESS_CODE" Default="" Mode="" Description="Bambi test access code" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Bambu Username" Target="BAMBU_USERNAME" Default="bblp" Mode="" Description="Bambu printer FTP username" Type="Variable" Display="advanced-hide" Required="true" Mask="false">bblp</Config>
+</Container>

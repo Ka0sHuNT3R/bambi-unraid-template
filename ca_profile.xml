@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Maintainer>
-  <Profile>https://github.com/Ka0sHuNT3R</Profile>
-</Maintainer>
+<CommunityApplications>
+  <Profile>Bambi provides a web-based control dashboard for Bambu Lab printers on Unraid. This repository maintains the Bambi Docker installation template. For support and issue reporting, visit the GitHub repository.</Profile>
+  <Icon>https://raw.githubusercontent.com/Ka0sHuNT3R/bambi-unraid-template/main/bambi-logo.png</Icon>
+  <WebPage>https://github.com/Ka0sHuNT3R/bambi-unraid-template</WebPage>
+</CommunityApplications>

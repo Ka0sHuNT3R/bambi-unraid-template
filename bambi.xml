@@ -6,12 +6,12 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://github.com/Ka0sHuNT3R/bambi-unraid-template/issues</Support>
   <Project>https://hub.docker.com/r/kaoshunter/bambi</Project>
   <Overview>Bambi control dashboard for Bambu Lab printers.</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:5050]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Ka0sHuNT3R/bambi-unraid-template/main/bambi.xml</TemplateURL>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
@@ -29,4 +29,5 @@
   <Config Name="Bambi Print Token" Target="BAMBI_PRINT_TOKEN" Default="" Mode="" Description="Bambi print service token" Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Bambi Test Access Code" Target="BAMBI_TEST_ACCESS_CODE" Default="" Mode="" Description="Bambi test access code" Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Bambu Username" Target="BAMBU_USERNAME" Default="bblp" Mode="" Description="Bambu printer FTP username" Type="Variable" Display="advanced-hide" Required="true" Mask="false">bblp</Config>
+<ReadMe>https://github.com/Ka0sHuNT3R/bambi-unraid-template/blob/main/INSTALLATION.txt</ReadMe>
 </Container>
